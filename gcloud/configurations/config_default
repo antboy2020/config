@@ -1,0 +1,8 @@
+[core]
+account = anthony.then95@gmail.com
+project = my-project-1476763226876
+
+[compute]
+zone = us-east1-b
+region = us-east1
+
