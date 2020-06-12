@@ -1,0 +1,42 @@
+// Place your key bindings in this file to override the defaults
+[
+    
+{ "key": "cmd+r",          "command": "workbench.action.debug.restart",
+                                    "when": "inDebugMode"
+                                },
+                                {
+                                    "key": "cmd+z backspace",
+                                    "command": "workbench.action.reloadWindow",
+                                    "when": "isDevelopment"
+                                },
+                                {
+                                    "key": "cmd+r",
+                                    "command": "-workbench.action.reloadWindow",
+                                    "when": "isDevelopment"
+                                },
+                                {
+                                    "key": "shift+cmd+f5",
+                                    "command": "-workbench.action.debug.restart",
+                                    "when": "inDebugMode"
+                                },
+                                {
+                                    "key": "shift+cmd+f5",
+                                    "command": "-workbench.action.debug.restart",
+                                    "when": "inDebugMode"
+                                },
+                                {
+                                    "key": "cmd+r",
+                                    "command": "-workbench.action.reloadWindow",
+                                    "when": "isDevelopment"
+                                },
+                                {
+                                    "key": "shift+cmd+f5",
+                                    "command": "-workbench.action.debug.restart",
+                                    "when": "inDebugMode"
+                                },
+                                {
+                                    "key": "shift+cmd+f5",
+                                    "command": "-workbench.action.debug.restart",
+                                    "when": "inDebugMode"
+                                },
+]
