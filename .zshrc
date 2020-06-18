@@ -2,13 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/thena1/.oh-my-zsh"
+export ZSH="/Users/anthonythen/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="bira"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -98,29 +98,5 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-function mkcd() { mkdir -p "$@" && cd "$_"; }
-function mvmk() { mkdir -p "$2" && mv "$1" "$2" }
-#export proxies
-#export http_proxy=http://localhost:3128
-#export https_proxy=http://localhost:3128
-#export no_proxy=127.0.0.1,localhost,*.nwie.net
-export PATH="$PATH:/Users/thena1/workspace/flutter/bin"
-export PATH="$PATH:/Users/thena1/Downloads/apache-maven-3.6.3/bin"
-export ANDROID_HOME=/Users/thena1/Library/Android/sdk
-export PATH="$PATH:$ANDROID_HOME:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
-export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home
-export PATH=$PATH:/opt/gradle/gradle-4.10.3/bin
 
 alias chromeNoSec="open -n -a /Applications/Chromium.app/Contents/MacOS/Chromium --args --user-data-dir='/tmp/chrome_dev_test' --disable-web-security"
-alias hgrep="~/workspace/hgrep.sh"
-alias flutterDevTools="flutter pub global run devtools"
-alias zipmystuff="~/workspace/shellscripts/zipmystuff.sh"
-#export http_proxy=http://localhost:8009
-#export https_proxy=http://localhost:8009
-#export HTTPS_PROXY=http://localhost:8009
-#export HTTP_PROXY=http://localhost:8009
-export no_proxy=127.0.0.1,cloud.google.com,gcr.io,.internal,internal,.local,local,amazonaws.com,.nwie.net,nwie.net,localhost
-export NO_PROXY=127.0.0.1,cloud.google.com,gcr.io,.internal,internal,.local,local,amazonaws.com,.nwie.net,nwie.net,localhost
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
