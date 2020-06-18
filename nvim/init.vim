@@ -63,14 +63,16 @@ if executable('rg')
     let g:rg_derive_root='true'
 endif
 
-let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 let mapleader = " "
-let loaded_matchparen = 1
+
+let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 let g:netrw_browse_split=2
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
 
 let g:ctrlp_use_caching=0
+
+let g:github_enterprise_urls='https://github.nwie.net'
 
 
 nnoremap <leader>h :wincmd h<CR>
