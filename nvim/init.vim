@@ -72,7 +72,7 @@ let g:netrw_winsize = 25
 
 let g:ctrlp_use_caching=0
 
-let g:github_enterprise_urls='https://github.nwie.net'
+let g:github_enterprise_urls=['https://github.nwie.net']
 
 
 nnoremap <leader>h :wincmd h<CR>
