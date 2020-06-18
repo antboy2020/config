@@ -1,6 +1,3 @@
-set runtimepath^=~/.vim runtimepath+=~/.vim/after
-let &packpath = &runtimepath
-
 syntax on
 
 set noshowmatch
@@ -49,7 +46,6 @@ Plug 'sainnhe/gruvbox-material'
 Plug 'phanviet/vim-monokai-pro'
 Plug 'vim-airline/vim-airline'
 Plug 'flazz/vim-colorschemes'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'ThePrimeagen/vim-be-good', {'do': './install.sh'}
 
 call plug#end()
@@ -65,7 +61,6 @@ endif
 
 let mapleader = " "
 
-let g:ctrlp_user_command = ['.git/', 'git --git-dir=%s/.git ls-files -oc --exclude-standard']
 let g:netrw_browse_split=2
 let g:netrw_banner = 0
 let g:netrw_winsize = 25
@@ -75,6 +70,8 @@ let g:ctrlp_use_caching=0
 let g:github_enterprise_urls=['https://github.nwie.net']
 
 
+nnoremap <C-p> :GFiles<CR>
+nnoremap <leader>pw :Rg <C-R>=expand("<cword>")<CR><CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
