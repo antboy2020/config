@@ -105,16 +105,19 @@ function mvmk() { mkdir -p "$2" && mv "$1" "$2" }
 #export https_proxy=http://localhost:3128
 #export no_proxy=127.0.0.1,localhost,*.nwie.net
 export PATH="$PATH:/Users/thena1/workspace/flutter/bin"
+export PATH="$PATH:/usr/local/bin/dart"
 export PATH="$PATH:/Users/thena1/Downloads/apache-maven-3.6.3/bin"
 export ANDROID_HOME=/Users/thena1/Library/Android/sdk
 export PATH="$PATH:$ANDROID_HOME:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home
 export PATH=$PATH:/opt/gradle/gradle-4.10.3/bin
+export PATH=$PATH:/Applications/Emacs.app/Contents/MacOS
 
 alias chromeNoSec="open -n -a /Applications/Chromium.app/Contents/MacOS/Chromium --args --user-data-dir='/tmp/chrome_dev_test' --disable-web-security"
 alias hgrep="~/workspace/hgrep.sh"
 alias flutterDevTools="flutter pub global run devtools"
 alias zipmystuff="~/workspace/shellscripts/zipmystuff.sh"
+alias editNvim="nvim ~/.config/nvim/init.vim"
 #export http_proxy=http://localhost:8009
 #export https_proxy=http://localhost:8009
 #export HTTPS_PROXY=http://localhost:8009

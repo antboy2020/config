@@ -1,1 +1,47 @@
-{}
+{
+  "commands": {
+    "%2FUsers%2Fthena1%2Fworkspace%2Fnationwide_mobile_flutter%2Flib": [
+      "flutter.dev.de",
+      "flutterjj",
+      "flutterinsp",
+      "flutter"
+    ],
+    "%2FUsers%2Fthena1%2Fworkspace%2Fnationwide_mobile_flutter": [
+      "flutterlog",
+      "flutterrelo",
+      "flutterinsp",
+      "flutterinst",
+      "flutter cqg",
+      "flutter ",
+      "flutterdevlo",
+      "flutterrest",
+      "flutter.dev",
+      "flutter",
+      "flutterqu"
+    ],
+    "%2FUsers%2Fthena1%2F": {
+      "emacs": {
+        "d%2Felpa": [
+          "flutterrest",
+          "flutterrelo",
+          "flutter"
+        ]
+      }
+    }
+  },
+  "FlutterDevices": {
+    "%2FUsers%2Fthena1%2Fworkspace%2Fnationwide_mobile_flutter": [
+      ":q"
+    ]
+  },
+  "services": {
+    "%2FUsers%2Fthena1%2Fworkspace%2Fnationwide_mobile_flutter": [
+      "flutter"
+    ]
+  },
+  "snippets": {
+    "%2FUsers%2Fthena1%2Fworkspace%2Fnationwide_mobile_flutter": [
+      "?"
+    ]
+  }
+}

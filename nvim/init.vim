@@ -1,11 +1,13 @@
 syntax on
 
 set noshowmatch
+set clipboard=unnamed
 set splitbelow
 set relativenumber
 set hidden
 set noerrorbells
 set tabstop=2 softtabstop=2
+set mouse=a
 set shiftwidth=2
 set expandtab
 set nu
@@ -38,6 +40,7 @@ Plug 'mbbill/undotree'
 Plug 'sheerun/vim-polyglot'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'honza/vim-snippets'
 
 "  I AM SO SORRY FOR DOING COLOR SCHEMES IN MY VIMRC, BUT I HAVE
 "  TOOOOOOOOOOOOO
@@ -69,14 +72,29 @@ let g:ctrlp_use_caching=0
 
 let g:github_enterprise_urls=['https://github.nwie.net']
 
+" Sweet Sweet FuGITive
+nmap <leader>gh :diffget //3<CR>
+nmap <leader>gu :diffget //2<CR>
+nmap <leader>gs :G<CR>
+
 
 nnoremap <C-p> :GFiles<CR>
+nnoremap <Leader>pf :Files<CR>
+nnoremap <Leader><CR> :so ~/.config/nvim/init.vim<CR>
 nnoremap <leader>pw :Rg <C-R>=expand("<cword>")<CR><CR>
 nnoremap <leader>h :wincmd h<CR>
 nnoremap <leader>j :wincmd j<CR>
 nnoremap <leader>k :wincmd k<CR>
 nnoremap <leader>l :wincmd l<CR>
 nnoremap <leader>u :UndotreeShow<CR>
+nnoremap <leader>clf :CocList --input=flutter commands<CR>
+nnoremap <leader>fr :CocCommand flutter.run<CR>
+nnoremap <leader>fe :CocCommand flutter.emulators<CR>
+nnoremap <leader>fe :CocCommand flutter.emulators<CR>
+nnoremap <leader>fd :CocCommand flutter.devices<CR>
+nnoremap <leader>fhr :CocCommand flutter.dev.hotReload<CR>
+nnoremap <leader>fR :CocCommand flutter.dev.hotRestart<CR>
+nnoremap <leader>fl :CocCommand flutter.dev.openDevLog<CR>
 nnoremap <leader>pv :wincmd v<bar> :Ex <bar> :vertical resize 30<CR>
 nnoremap <leader>ps :Rg<SPACE>
 nnoremap <silent> <leader>+ :vertical resize +5<CR>
@@ -91,3 +109,7 @@ nmap <leader>g] <Plug>(coc-diagnostic-next)
 nmap <silent> <leader>gp <Plug>(coc-diagnostic-prev-error)
 nmap <silent> <leader>gn <Plug>(coc-diagnostic-next-error)
 nnoremap <leader>cr :CocRestart
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <silent><expr> <cr> pumvisible() ? coc#_select_confirm() : "\<C-g>u\<CR>"
+inoremap <C-c> <esc>
