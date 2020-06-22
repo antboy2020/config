@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "coc-flutter": ">=1.4.0",
+    "coc-java": ">=1.4.11",
     "coc-snippets": ">=2.1.28",
     "coc-tsserver": ">=1.5.1"
   }

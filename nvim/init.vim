@@ -74,7 +74,7 @@ let g:github_enterprise_urls=['https://github.nwie.net']
 
 " Sweet Sweet FuGITive
 nmap <leader>gh :diffget //3<CR>
-nmap <leader>gu :diffget //2<CR>
+nmap <leader>gl :diffget //2<CR>
 nmap <leader>gs :G<CR>
 
 
