@@ -1,0 +1,61 @@
+{
+    "editor.minimap.enabled": false,
+    "editor.scrollBeyondLastLine": false,
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        // {
+        //     "before": [
+        //         "j",
+        //         "j"
+        //     ],
+        //     "after": [
+        //         "<Esc>"
+        //     ]
+        // }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [
+                "undo"
+            ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after": [
+                "redo"
+            ]
+        }
+        // {
+        //     "before": [
+        //         "<leader>",
+        //         "d"
+        //     ],
+        //     "after": [
+        //         "d",
+        //         "d"
+        //     ]
+        // },
+        // {
+        //     "before": [
+        //         "<C-n>"
+        //     ],
+        //     "commands": [
+        //         ":nohl"
+        //     ]
+        // }
+    ],
+    "vim.leader": "<space>",
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false
+    }
+}
