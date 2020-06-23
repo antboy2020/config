@@ -2,13 +2,13 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/thena1/.oh-my-zsh"
+export ZSH="/Users/anthonythen/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="bira"
+ZSH_THEME="robbyrussell"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -98,6 +98,10 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+<<<<<<< HEAD
+
+alias chromeNoSec="open -n -a /Applications/Chromium.app/Contents/MacOS/Chromium --args --user-data-dir='/tmp/chrome_dev_test' --disable-web-security"
+=======
 function mkcd() { mkdir -p "$@" && cd "$_"; }
 function mvmk() { mkdir -p "$2" && mv "$1" "$2" }
 #export proxies
@@ -127,3 +131,4 @@ export NO_PROXY=127.0.0.1,cloud.google.com,gcr.io,.internal,internal,.local,loca
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
+>>>>>>> d940317866cf5d516655d2c693b43a693664f016
