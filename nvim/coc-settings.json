@@ -1,0 +1,6 @@
+{
+  "java.jdt.ls.vmargs": "-javaagent:/usr/local/share/lombok/lombok-1.18.4.jar -Xbootclasspath/a:/usr/local/share/lombok/lombok-1.18.4.jar",
+  "coc.preferences.formatOnSaveFiletypes": [
+  "dart","javascript","typescript","flutter"
+]
+}

@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/Users/thena1/workspace/nationwide_mobile_flutter'
+let g:netrw_dirhist_5='/Users/thena1/workspace/mobilex'
+let g:netrw_dirhist_4='/Users/thena1/workspace/mobilex/src/main/java/com/nationwide/mobilex/customer/policies/policy_changes/controller'
+let g:netrw_dirhist_3='/Users/thena1/workspace/mobilex/src/main/java/com/nationwide/mobilex/customer/policies/policy_changes'
+let g:netrw_dirhist_2='/Users/thena1/workspace/mobilex/src/main/java/com/nationwide/mobilex/customer/policies'
+let g:netrw_dirhist_1='/Users/thena1/workspace/mobilex/src/main/java/com/nationwide/mobilex/customer'
+let g:netrw_dirhist_0='/Users/thena1/workspace/mobilex/src/main/java/com/nationwide/mobilex'
+let g:netrw_dirhist_9='/Users/thena1/workspace/mobilex/src/main/java/com/nationwide/mobilex/policyservicing'
+let g:netrw_dirhist_8='/Users/thena1/workspace/mobilex/src/main/java/com/nationwide/mobilex'
+let g:netrw_dirhist_7='/Users/thena1/workspace/mobilex/src/main/java/com/nationwide'
