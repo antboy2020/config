@@ -22,7 +22,7 @@
             "before": [
                 "u"
             ],
-            "after": [
+            "commands": [
                 "undo"
             ]
         },
@@ -30,8 +30,20 @@
             "before": [
                 "<C-r>"
             ],
-            "after": [
+            "commands": [
                 "redo"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "o"
+            ],
+            "commands": [
+                {
+                    "command": "workbench.action.tasks.runTask",
+                    "args": "make junk dir"
+                }
             ]
         }
         // {
