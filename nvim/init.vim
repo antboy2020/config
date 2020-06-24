@@ -73,8 +73,8 @@ let g:ctrlp_use_caching=0
 let g:github_enterprise_urls=['https://github.nwie.net']
 
 " Sweet Sweet FuGITive
-nmap <leader>gh :diffget //3<CR>
-nmap <leader>gl :diffget //2<CR>
+nmap <leader>gl :diffget //3<CR>
+nmap <leader>gh :diffget //2<CR>
 nmap <leader>gs :G<CR>
 
 
