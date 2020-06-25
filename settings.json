@@ -45,7 +45,17 @@
                     "args": "make junk dir"
                 }
             ]
-        }
+        },
+        {
+            "before": [
+                "<leader>",
+                "d",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.debug.start"
+            ]
+        },
         // {
         //     "before": [
         //         "<leader>",
