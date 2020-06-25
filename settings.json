@@ -1,4 +1,11 @@
 {
+    "editor.suggestSelection": "first",
+    "gitlens.views.compare.files.layout": "list",
+    "explorer.compactFolders": false,
+    "window.zoomLevel": 1,
+    "git.suggestSmartCommit": false,
+    "dart.lineLength": 140,
+    "diffEditor.ignoreTrimWhitespace": false,
     "editor.minimap.enabled": false,
     "editor.scrollBeyondLastLine": false,
     "vim.easymotion": true,
@@ -36,14 +43,21 @@
         },
         {
             "before": [
-                "leader",
-                "o"
+                "<leader>",
+                "d",
+                "p"
             ],
             "commands": [
-                {
-                    "command": "workbench.action.tasks.runTask",
-                    "args": "make junk dir"
-                }
+                "workbench.action.debug.start"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "p"
+            ],
+            "commands": [
+                "workbench.action.debug.continue"
             ]
         },
         {
